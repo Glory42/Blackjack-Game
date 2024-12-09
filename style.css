@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.game-container {
+    background-color: #34495e;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+#dealer-Cards, #your-Cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#dealer-Cards img, #your-Cards img {
+    height: 200px;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+#dealer-Cards img:hover, #your-Cards img:hover {
+    transform: scale(1.05);
+}
+
+.game-title {
+    color: #3498db;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #2c3e50;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.score-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-label {
+    color: #bdc3c7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.score-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.game-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hit, #stand, #next-round {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#hit:hover, #stand:hover, #next-round:hover {
+    background-color: #2980b9;
+}
+
+#hit:active, #stand:active, #next-round:active {
+    transform: scale(0.95);
+}
+
+#hit:disabled, #stand:disabled, #next-round:disabled {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.results {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+#next-round {
+    display: none;
+    background-color: #2ecc71;
+}
+
+#next-round:hover {
+    background-color: #27ae60;
+}
+
+@media (max-width: 600px) {
+    #dealer-Cards img, #your-Cards img {
+        height: 150px;
+        width: 110px;
+    }
+
+    .game-title {
+        font-size: 2rem;
+    }
+
+    .game-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hit, #stand, #next-round {
+        width: 100%;
+        max-width: 250px;
+    }
+}
