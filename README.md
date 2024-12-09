@@ -14,10 +14,6 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 
 ![Blackjack Game](BJ_1.png)
 
-## Prerequisites
-
-- A modern web browser (e.g., Chrome, Firefox, Safari).
-- No additional software or server is required to run the game.
 
 ## How to Run
 
@@ -50,21 +46,14 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 - **CSS** for styling the game interface.
 - **JavaScript** for the game logic, including deck creation, card shuffling, and gameplay control.
 
+## Upcoming Features 
+- **Betting** System
+- Advanced Mechanics
+- Visual Enhancements
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## How to Contribute
-
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request with a description of your changes.
-
-## Credits
-
-- The images used for the cards are publicly available and used under fair use for educational purposes.
 
 ---
 
