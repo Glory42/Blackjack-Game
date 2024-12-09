@@ -12,7 +12,7 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 
 ## Screenshots
 
-![Blackjack Game](BJ_game.png)
+![Blackjack Game](BJ_1.png)
 
 ## Prerequisites
 
