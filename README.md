@@ -23,7 +23,7 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/blackjack-game.git
+    git clone https://github.com/Glory42/Blackjack-Game.git
     ```
 
 2. Navigate to the project folder:
