@@ -9,7 +9,8 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 - The dealer will play automatically and must hit until they reach 17 or more.
 - Handles Aces as either 1 or 11.
 - Displays the result of the game (win, lose, or tie).
-
+- **Betting** System
+  
 ## Screenshots
 
 ![Blackjack Game](ss.png)
@@ -47,7 +48,7 @@ A simple Blackjack game built with HTML, CSS, and JavaScript. The game allows a 
 - **JavaScript** for the game logic, including deck creation, card shuffling, and gameplay control.
 
 ## Upcoming Features 
-- **Betting** System
+
 - Advanced Mechanics
 - Visual Enhancements
 
